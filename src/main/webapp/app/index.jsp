@@ -6,8 +6,8 @@
     <title>Moja Strona</title>
 </head>
 <body>
-<jsp:include page="header.jsp"/>
-<jsp:include page="form.jsp"/>
+<jsp:include page="../header.jsp"/>
+<jsp:include page="../form.jsp"/>
 <%--<jsp:include page="headerMy.jsp"/>--%>
 <%--<jsp:include page="formMy.jsp"/>--%>
 </body>

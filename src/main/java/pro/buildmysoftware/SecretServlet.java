@@ -26,6 +26,14 @@ public class SecretServlet extends HttpServlet {
         } else {
             req.getRequestDispatcher("secret-bad.jsp").forward(req, resp);
         }
+
+//        HttpSession session = req.getSession();
+//
+//        if (req.getParameter("secret").equalsIgnoreCase(SECRET)) {
+//            req.getRequestDispatcher("goodSecret.jsp").forward(req, resp);
+//        }else {
+//            req.getRequestDispatcher("badSecret.jsp").forward(req, resp);
+//        }
     }
 }
 
