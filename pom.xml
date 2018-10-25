@@ -21,12 +21,21 @@
 		<maven-surefire-plugin.version>
 			2.22.0
 		</maven-surefire-plugin.version>
-		<jupiter.version>5.2.0</jupiter.version>
-		<tomcat.version>9.0.11</tomcat.version>
-		<project.build.sourceEncoding>UTF-8
+		<jupiter.version>
+			5.2.0
+		</jupiter.version>
+		<tomcat.version>
+			9.0.11
+		</tomcat.version>
+		<project.build.sourceEncoding>
+			UTF-8
 		</project.build.sourceEncoding>
-		<maven.compiler.source>1.10</maven.compiler.source>
-		<maven.compiler.target>1.10</maven.compiler.target>
+		<maven.compiler.source>
+			1.8
+		</maven.compiler.source>
+		<maven.compiler.target>
+			1.8
+		</maven.compiler.target>
 	</properties>
 
 	<dependencies>

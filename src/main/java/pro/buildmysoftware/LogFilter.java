@@ -1,7 +1,6 @@
 package pro.buildmysoftware;
 
 import javax.servlet.*;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class LogFilter implements Filter {

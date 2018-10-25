@@ -4,7 +4,6 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Optional;
 
 public class SessionFilter implements Filter {
     @Override
@@ -29,7 +28,7 @@ public class SessionFilter implements Filter {
             HttpServletResponse httpResponse = (HttpServletResponse) response;
             httpResponse.sendRedirect("../login.jsp");
         }
-        
+
 /*TEN KOD ROBI TO SAMO!!!*/
         /*Boolean logged = Optional.ofNullable(httpRequest.getSession().getAttribute("logged")).map(Boolean.class::cast).orElse(false);
 
